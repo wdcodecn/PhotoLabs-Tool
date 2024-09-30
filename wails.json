@@ -1,0 +1,10 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "PhotoLabs-Tool",
+  "outputfilename": "PhotoLabs-Tool",
+  "frontend:install": "yarn install",
+  "frontend:build": "yarn build",
+  "frontend:dev:watcher": "yarn run dev",
+  "frontend:dev:serverUrl": "auto",
+  "assetdir": "assets"
+}
